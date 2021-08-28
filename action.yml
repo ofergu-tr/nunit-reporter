@@ -1,4 +1,4 @@
-name: 'NUnit Reporter'
+name: 'NUnit Reporter II'
 description: 'Github action for publishing nunit results as github checks'
 author: 'MirrorNG'
 inputs:
