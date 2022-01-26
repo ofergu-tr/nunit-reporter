@@ -11,7 +11,7 @@ async function run(): Promise<void> {
     const path = getInput('path')
     const numFailures = parseInt(getInput('numFailures'))
     const accessToken = getInput('access-token')
-    const title = getInput('reportTitle')
+    const title = getInput('reportTitle') + ' _test_'
 
     const results = await readResults(path)
 
